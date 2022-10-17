@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+
+</head>
+<body>
+	 <div class="container">
+        <form action="register" method="post">
+            <h2>Ragistration form</h2>
+            <div class="info">
+                <label for="name">Name</label>
+                <input type="text" name="name">
+            </div>
+           
+
+            <div class="info">
+                <label for="email">Email</label>
+                <input type="email" name="email">
+            </div>
+            <div class="info">
+                <label for="number">Password</label>
+                <input type="password" name="password">
+            </div>
+
+            <div class="info">
+                <label for="email">Course</label>
+                <select name="course" >
+                    <option value="Bsc">Bsc</option>
+                    <option value="BCA">BCA</option>
+                    <option value="Btech">Btech</option> 
+                </select>
+
+                <Button name="register">submit</Button>
+            </div>
+
+           
+
+
+
+        </form>
+    </div>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 48vw;
+            /* height: 100vh; */
+            display: flex;
+           justify-content: center;
+           justify-items: center;
+           align-content: center;
+           border-radius: 10px;
+           margin: 10% 25%;
+           background-color: cadetblue;
+           border: 1px black solid;
+        }
+        .info{
+            padding: 5%;
+            
+        }
+        button{
+            align-items: center;
+        
+            justify-content: center;
+        }
+
+        
+    </style>
+</body>
+
+</body>
+</html>
